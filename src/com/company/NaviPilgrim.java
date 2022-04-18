@@ -23,7 +23,7 @@ public class NaviPilgrim {
                 OutputStream output = socket.getOutputStream();
                 PrintWriter writer = new PrintWriter(output, true);
 
-
+//hi zybls
                 String text;
                 do {
                     text = reader.readLine();
