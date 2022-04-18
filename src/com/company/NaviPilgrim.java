@@ -13,7 +13,6 @@ public class NaviPilgrim {
         try (ServerSocket serverSocket = new ServerSocket(port)) {
 
             System.out.println("Server is listening on port " + port);
-
             while (true) {
                 Socket socket = serverSocket.accept();
                 System.out.println("New client connected");
@@ -26,10 +25,18 @@ public class NaviPilgrim {
 
 
                 String text;
+                int x;
+                int y;
                 do {
+
                     text = reader.readLine();
                     if (text != null) {
+                        text.replaceAll("\\s+","");
                         System.out.println(text);
+                        x = text.indexOf("$");
+                        y = text.indexOf("*");
+                        String subStr = text.substring(x, y);
+                        System.out.println(subStr);
                     }
 
                 } while (text != null);
