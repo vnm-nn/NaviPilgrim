@@ -25,17 +25,12 @@ public class NaviPilgrim {
 
 
                 String text;
-                int x;
-                int y;
                 do {
-
                     text = reader.readLine();
-                    if (text != null) {
-                        text.replaceAll("\\s+","");
+                    if (text != null && text.indexOf('*') != -1) {
+                        //text.replaceAll("\\s+","");
                         System.out.println(text);
-                        x = text.indexOf("$");
-                        y = text.indexOf("*");
-                        String subStr = text.substring(x, y);
+                        String subStr = text.substring(text.indexOf('$'), text.indexOf('*') + 1);
                         System.out.println(subStr);
                     }
 
