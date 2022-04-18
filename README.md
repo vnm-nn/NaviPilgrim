@@ -12,3 +12,5 @@ user-agent: Piligrim-M7 (#76)
 +CENG: 3,
 +CENG: 4,
 +CENG: 5 57;  S; Batt: 407,R
+
+
