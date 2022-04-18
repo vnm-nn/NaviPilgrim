@@ -12,5 +12,3 @@ user-agent: Piligrim-M7 (#76)
 +CENG: 3,
 +CENG: 4,
 +CENG: 5 57;  S; Batt: 407,R
-
-Data next}: $GPRMC,100421.000,A,5550.3201,N,03738.8500,E,0.30,328.78,150422,,,A,V*
