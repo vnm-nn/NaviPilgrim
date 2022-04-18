@@ -1,6 +1,8 @@
 package com.company;
 
+
 public class GpsDataFind {
+
 
     private String UTC;                 //1
     private String status;              //2
@@ -15,6 +17,10 @@ public class GpsDataFind {
     private String magneticEorW;        //11
     private String indicator;           //12
     private String navStatus;           //13
+
+    public String getKey(){
+        return "Key-"+i;
+    }
 
 
 

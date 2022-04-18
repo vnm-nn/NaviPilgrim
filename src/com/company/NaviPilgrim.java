@@ -31,6 +31,7 @@ public class NaviPilgrim {
                 PrintWriter writer = new PrintWriter(output, true);
 
                 String text;
+
                 do {
                     text = reader.readLine();
                     if (text != null && text.indexOf('*') != -1) {
@@ -40,8 +41,9 @@ public class NaviPilgrim {
                         System.out.println(subStr);
                         List<String> parsStr = Arrays.asList(subStr.split(","));
                         System.out.println(parsStr);
-//                        Map<String, > map =
-//                                list.stream().collect(Collectors.toMap(Item::getKey, item -> item));
+                        Map<String, Integer> map =
+                                Arrays.stream(subStr.split(",")).collect(Collectors.toMap(s -> s, s -> 0));
+                        System.out.println(map);
 //                        List<Item>  = IntStream.mapToObj(Item::new).collect(Collectors.toList());
 //
 //                        Map<String, Item> map =
