@@ -17,17 +17,17 @@ The necessary information: $GPRMC,hhmmss.ss,A,ddmm.mm,a,dddmm.mm,a,x.x,x.x,xxxx,
 
 Parameters:
 1. UTC of position fix, hh is hours, mm is minutes, ss.ss is seconds.
-2 Status, A = Valid, V = Warning
+2. Status, A = Valid, V = Warning.
 3. Latitude, dd is degrees. mm.mm is minutes.
 4. N or S
 5. Longitude, ddd is degrees. mm.mm is minutes.
-6. E or W
-7. Speed over ground, knots
-8. Track made good, degrees true
-9 .Date, ddmmyy
-10. Magnetic Variation, degrees
-11. E or W
-12. FAA mode indicator (NMEA 2.3 and later)
-13. Nav Status (NMEA 4.1 and later) A=autonomous, D=differential, E=Estimated, M=Manual input mode N=not valid, S=Simulator, V = Valid
+6. E or W.
+7. Speed over ground, knots.
+8. Track made good, degrees true.
+9. Date, ddmmyy.
+10. Magnetic Variation, degrees.
+11. E or W.
+12. FAA mode indicator (NMEA 2.3 and later).
+13. Nav Status (NMEA 4.1 and later) A=autonomous, D=differential, E=Estimated, M=Manual input mode N=not valid, S=Simulator, V = Valid.
 
 
